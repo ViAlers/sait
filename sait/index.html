@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TON Wallet Connect</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tonconnect/sdk@latest/dist/tonconnect-sdk.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Подключите свой TON кошелек</h1>
+        <div id="wallet-info" class="wallet-info hidden">
+            <p>Кошелек подключен: <span id="wallet-address"></span></p>
+            <button id="disconnect-btn" class="btn disconnect">Отключиться</button>
+        </div>
+        <button id="connect-btn" class="btn connect">Подключить кошелек</button>
+        <div id="connection-status" class="status"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
