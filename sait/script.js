@@ -1,6 +1,7 @@
 // Инициализация TON Connect
 const connector = new TonConnect.TonConnect({
-    manifestUrl: 'https://ViAllers.github.io/sait-/tonconnect-manifest.json'
+    manifestUrl: 'https://viallers.github.io/salt/tonconnect-manifest.json',
+    walletsListSource: 'https://raw.githubusercontent.com/ton-connect/wallets-list/main/wallets.json'
 });
 
 // Элементы DOM
