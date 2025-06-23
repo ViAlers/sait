@@ -1,6 +1,6 @@
 // Инициализация TON Connect
 const connector = new TonConnect.TonConnect({
-    manifestUrl: 'https://testpugnasaitprobaski.com/tonconnect-manifest.json'
+    manifestUrl: 'https://ViAllers.github.io/sait-/tonconnect-manifest.json'
 });
 
 // Элементы DOM
